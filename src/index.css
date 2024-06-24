@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+*,
+::after,
+::before {
+  font-family: "Inter", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
